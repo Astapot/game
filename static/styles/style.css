@@ -1,0 +1,36 @@
+a {
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(247, 227, 0);
+}
+
+div.main {
+    background-color: #512703f1;
+    text-align: right;
+    /* margin: 100px;(отступ) */
+    /* width: 80px;(ширина) */
+    font-size: 40px;
+    position: relative;
+    /* left: 20%; */
+
+}
+
+div.button {
+    border-style: solid;
+    border-width: 2px;
+    border-color:rgb(247, 227, 0);
+    border-radius: 20%;
+    display: inline-block;
+    background-color: rgb(18, 8, 69);
+    padding: 10px;
+}
+
+.flash {padding: 10px;}
+.flash.success {
+    border: 1px solid #21DB56;
+    background: #AEFFC5;
+}
+.flash.error {
+    border: 1px solid #FF4343;
+    background: #FF9C9C;
+}
